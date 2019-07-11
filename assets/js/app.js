@@ -7,8 +7,9 @@ $(document).ready(function(){
   
 })
 
-var trivia = {
   // Properties
+var trivia = {
+  
   correct: 0,
   incorrect: 0,
   unanswered: 0,
@@ -19,34 +20,36 @@ var trivia = {
 
   // Questions, Options and Answers data
   questions: {
-    q1: 'Who is actually a chef?',
-    q2: 'What does Joey love to eat?',
-    q3: 'How many times has Ross been divorced?',
-    q4: 'How many types of towels does Monica have?',
-    q5: "Who's name is on the TV Guide?",
-    q6: 'Who hates Thanksgiving?',
-    q7: "Who thinks they're always the last to find out everything?",
-    q8: "What is Chandlers job?"
+    q1: 'Who speaks the first line in A New Hope?',
+    q2: 'Which of these characters appears in every main film?',
+    q3: 'Hans response to Leah telling him she loves him?',
+    q4: 'How fast is Hans ship?',
+    q5: 'What is the name of Boba Fetts ship?',
+    q6: 'What docking bay is used in Mos Eisley?',
+    q7: "Where does Yoda live?",
+    q8: "What line is in every movie?"
   },
+
   options: {
-    q1: ['Monica', 'Chandler', 'Rachel', 'Ross'],
-    q2: ['Pizza', 'Fruit', 'Sandwiches', 'Pizza'],
-    q3: ['5', '2', '1', '3'],
-    q4: ['3', '8', '11', '6'],
-    q5: ['Chandler Bing','Shanda Bing','Chanandler Bong','Chandler Bong'],
-    q6: ['Joey','Chandler','Rachel','Ross'],
-    q7: ['Ross', 'Phoebe', 'Monica','Chandler'],
-    q8: ['Comic book writer', 'IT Procurements Manager', 'Transposter', 'Unemployed']
+    q1: ['C3PO', 'Rebel Guard', 'Darth Vader', 'Princess Leah'],
+    q2: ['Han Solo', 'Luke Skywalker', 'R2-D2', 'Anakin Skywalker'],
+    q3: ['I love you, too.', 'Ditto', 'Me, too.', 'I know.'],
+    q4: ['.5 past light speed.', '12 Parsecs', 'Fast enough', 'Hyperspace fast'],
+    q5: ['Tantiv V','Slave 1','Falcon','Starkiller'],
+    q6: ['94','64','84','54'],
+    q7: ['Yavin 4', 'Dantooine', 'Dagobah','Naboo'],
+    q8: ['I love you', 'The Force is strrong with you ', 'Whadda ya think? A pricess and a guy like me?', 'Ive got a bad feeling about this.'], 
   },
+  
   answers: {
-    q1: 'Monica',
-    q2: 'Sandwiches',
-    q3: '3',
-    q4: '11',
-    q5: 'Chanandler Bong',
-    q6: 'Chandler',
-    q7: 'Phoebe',
-    q8: 'IT Procurements Manager'
+    q1: 'C3PO',
+    q2: 'R2-D2',
+    q3: 'I know.',
+    q4: '.5 past light speed.',
+    q5: 'Slave 1',
+    q6: '94',
+    q7: 'Dagobah',
+    q8: 'Ive got a bad feeling about this.'
   },
   
   // Initialize game
