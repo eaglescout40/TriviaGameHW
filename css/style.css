@@ -1,0 +1,14 @@
+body{
+	background-image: url(https://theluxauthority.com/wp-content/uploads/2018/10/IMpact-of-Star-Wars-7.jpg);
+	text-align: center;
+}
+
+.text-muted{
+	color: blue;
+}
+.last-seconds{
+  color: red;
+}
+.option{
+  margin: 15px;
+}
